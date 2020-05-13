@@ -44,6 +44,7 @@ class MyDocument extends Document {
           </script>
           <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165962395-1"></script>
           <script dangerouslySetInnerHTML={this.setGoogleTags()}></script>
+          <script data-ad-client="ca-pub-6897605241296031" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         </Head>
         <body>
           <Main />

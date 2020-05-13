@@ -34,15 +34,15 @@ const Header = () => {
                 {APP_NAME}
                 </DropdownToggle>
               <DropdownMenu className="bg-dark sn-lt">
-                <DropdownItem className="bg-transparent"><Link href="/"><a><i aria-hidden className="fas fa-home"></i> Home</a></Link></DropdownItem>
+                <DropdownItem className="bg-transparent"><Link href="/"><a style={{display: 'block'}}><i aria-hidden className="fas fa-home"></i> Home</a></Link></DropdownItem>
                 <DropdownItem divider/>
-                <DropdownItem className="bg-transparent"><Link href="/blogs"><a>Blogs</a></Link></DropdownItem>
+                <DropdownItem className="bg-transparent"><Link href="/blogs"><a style={{display: 'block'}}>Blogs</a></Link></DropdownItem>
                 <DropdownItem divider/>
-                <DropdownItem className="bg-transparent"><Link href="/players"><a>Players</a></Link></DropdownItem>
-                <DropdownItem className="bg-transparent"><Link href="/game-masters"><a>Game Masters</a></Link></DropdownItem>
-                <DropdownItem className="bg-transparent"><Link href="/monsters"><a>Monsters</a></Link></DropdownItem>
+                <DropdownItem className="bg-transparent"><Link href="/players"><a style={{display: 'block'}}>Players</a></Link></DropdownItem>
+                <DropdownItem className="bg-transparent"><Link href="/game-masters"><a style={{display: 'block'}}>Game Masters</a></Link></DropdownItem>
+                <DropdownItem className="bg-transparent"><Link href="/monsters"><a style={{display: 'block'}}>Monsters</a></Link></DropdownItem>
                 <DropdownItem divider/>
-                <DropdownItem className="bg-transparent"><Link href="/contact"><a><i aria-hidden className="fas fa-envelope"></i> Contact</a></Link></DropdownItem>
+                <DropdownItem className="bg-transparent"><Link href="/contact"><a style={{display: 'block'}}><i aria-hidden className="fas fa-envelope"></i> Contact</a></Link></DropdownItem>
               </DropdownMenu>
             </Dropdown>
 
