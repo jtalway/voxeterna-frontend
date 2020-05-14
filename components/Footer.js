@@ -52,7 +52,7 @@ const Footer = () => {
 			              <li><About/></li>
 			              <li><Link href="/contact"><a>Contact</a></Link></li>
 			              <li><PrivacyPolicy/></li>
-			              <li><a href="#">Sitemap</a></li>
+			              <li><a href="https://voxeterna.com/sitemap.xml">Sitemap</a></li>
 			            </ul>
 			          </div>
 			        </div>

@@ -58,7 +58,7 @@ const Card = ({blog}) => {
           <div>
             <section>
             
-              <div className="pb-1 text-left">{renderHTML(blog.excerpt)}...</div>
+              <div className="pb-1 text-left">{renderHTML(blog.excerpt)}</div>
               <div className="float-left">
               {showBlogCategories(blog)}
               {showBlogTags(blog)}

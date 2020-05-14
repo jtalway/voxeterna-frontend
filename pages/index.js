@@ -37,11 +37,11 @@ const Index = ({ router }) => {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12 text-center">
-                                <img 
+                                <a href="/blogs"><img 
                                     src="/images/logo.png"
                                     alt="Vox Eterna logo"
                                     className="img img-fluid"
-                                />
+                                /></a>
                             </div>
                         </div>
                         
