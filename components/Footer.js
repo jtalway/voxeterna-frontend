@@ -1,5 +1,6 @@
 import About from "./About";
 import PrivacyPolicy from "./legal/PrivacyPolicy";
+import OpenGameLicense from "./legal/OpenGameLicense";
 import Link from "next/link";
 import MailchimpSubscribe from "react-mailchimp-subscribe";
 import {APP_NAME, MAILCHIMP_URL} from "../config";
@@ -52,7 +53,11 @@ const Footer = () => {
 			              <li><About/></li>
 			              <li><Link href="/contact"><a>Contact</a></Link></li>
 			              <li><PrivacyPolicy/></li>
-			              <li><a href="https://voxeterna.com/sitemap.xml">Sitemap</a></li>
+			              <li><a 
+			              	href="https://voxeterna.com/sitemap.xml" 
+			              	target="_blank" 
+							rel="noopener">Sitemap</a></li>
+			              <li><OpenGameLicense/></li>
 			            </ul>
 			          </div>
 			        </div>
