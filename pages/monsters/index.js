@@ -48,26 +48,12 @@ const Monsters = () => {
 				
               </div>
             </header>
-            <section className="pt-3 pb-3 mr-5 ml-5 text-center">
-				Need a quick monster of a specific type or from a certain environment?
-				Just click the tag below that matches what kind of monster you are
-				looking for!
-			</section>
           </div>
-          <div className="col-md-12 text-center mb-3">
+          <div className="col-md-12 text-center">
 			<div>
-		        <h4 className="bg-dark p-2 mt-4 text-white font-weight-bold text-center w-75 mx-auto">
+		        <h4 className="bg-dark p-2 mt-3 text-white font-weight-bold text-center w-75 mx-auto">
                   Monster Types
                 </h4>
-				<section className="pt-2 mx-auto text-center w-75">
-	      		Many kinds of monsters can be classified into typologies based on 
-	      		their common characteristics.
-	      		<a 
-	      			href="https://en.wikipedia.org/wiki/Monsters_in_Dungeons_%26_Dragons#Monster_types"
-	      			target="_blank" 
-					rel="noopener"
-					className="sm-text"> Wikipedia entry</a>
-      			</section>
       		</div>
       		<div className="mt-2">
       			<Link href={"/tags/aberrations"}>
@@ -143,19 +129,9 @@ const Monsters = () => {
       		</div>
           
 			<div>
-				<h4 className="bg-dark p-2 mt-4 text-white font-weight-bold text-center w-75 mx-auto">
+				<h4 className="bg-dark p-2 mt-3 text-white font-weight-bold text-center w-75 mx-auto">
                   Environments
                 </h4>
-				<section className="pt-2 mx-auto text-center w-75">
-	      		An environment is a natural unit consisting of all plants, animals 
-	      		and micro-organisms in an area functioning together with all of the
-	      		 non-living physical factors of the environment.
-	      		<a 
-	      			href="https://en.wikipedia.org/wiki/Natural_environment#Ecosystems"
-	      			target="_blank" 
-					rel="noopener"
-					className="sm-text"> Wikipedia entry</a>
-      			</section>
       		</div>
       		<div className="mt-2 mb-5">
       			<Link href={"/tags/arctic"}>

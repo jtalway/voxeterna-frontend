@@ -6,7 +6,7 @@ import {API} from "../../config";
 
 const SmallCard = ({blog}) => {
   return (
-    <div className="card">
+    <div className="card mb-2">
       <section>
         <Link href={`/blogs/${blog.slug}`}>
           <a>
@@ -22,24 +22,27 @@ const SmallCard = ({blog}) => {
       </section>
 
       <div className="card-body">
-        <section>
-          {JSON.stringify(blog.photo)}
+        <section>        
           <Link href={`/blogs/${blog.slug}`}>
             <a><h5 className="card-title">{blog.title}</h5></a>
           </Link>
-          <div className="card-text">{renderHTML(blog.excerpt)}</div>
+          {/*<div className="card-text">{renderHTML(blog.excerpt)}</div>
           <Link href={`/blogs/${blog.slug}`}>
             <a className="btn btn-sm btn-outline-primary">Read more</a>
-          </Link>
+          </Link> */}
         </section>
-      </div>
-
-      <div className="card-body">
-        <div>
-          Posted {moment(blog.updatedAt).fromNow()} by{" "}
+        <div className="sm-text">
+          Posted {moment(blog.updatedAt).fromNow()}  {" "}
+          by{" "}
           <Link href={`/profile/${blog.postedBy.username}`}>
             <a className="float-right">
-              {blog.postedBy.username}
+              {blog.postedBy.username}{" "}
+              <img 
+                src={`${API}/user/photo/${blog.postedBy.username}`}
+                height="20px"
+                width="auto"
+                style={{borderRadius: "50%"}}
+              />
             </a>
           </Link>
         </div>

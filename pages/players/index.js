@@ -49,26 +49,25 @@ const Players = () => {
 				
               </div>
             </header>
-            <section className="pt-3 pb-3 mr-5 ml-5 text-center">
-				Players make the world go round! Each player controls a character, which is referred to as a player character or PC.
+            <section className="mt-2 mr-5 ml-5 text-center">
+				Each player controls a character, which is referred to as a player character or PC.
 			</section>
           </div>
-          <div className="col-md-12 text-center mb-3">
-
+          <div className="col-md-12 text-center">
           	<div>
 				<Link href={"/categories/characters"}>
-			        <a className="btn btn-sm btn-info mr-1 ml-1 mt-3">
+			        <a className="btn btn-sm btn-info mr-1 ml-1 mt-2">
 			          Characters
 			        </a>
 	      		</Link>
 	      		<Link href={"/categories/playing-the-game"}>
-			        <a className="btn btn-sm btn-info mr-1 ml-1 mt-3">
+			        <a className="btn btn-sm btn-info mr-1 ml-1 mt-2">
 			          Playing the Game
 			        </a>
 	      		</Link>
       		</div>
 
-      		<div className="mt-3 mb-3">
+      		<div className="mt-2">
       			<Link href={"/tags/backgrounds"}>
 			        <a className="btn btn-sm btn-outline-info mr-1 ml-1 mt-1">
 			          Backgrounds
@@ -92,22 +91,11 @@ const Players = () => {
       		</div>
 
           	<div>
-          		<h4 className="bg-dark p-2 mt-4 text-white font-weight-bold text-center w-75 mx-auto">
+          		<h4 className="bg-dark p-2 mt-3 text-white font-weight-bold text-center w-75 mx-auto">
                   Races
                 </h4>
-				<section className="pt-2 mx-auto text-center w-75">
-	      		Character race represents the people to which a player character (PC)
-	      		 or a non-player character (NPC) belongs. "People" is to be taken in
-	      		  the broader sense, and may encompass ethnic groups, species, 
-	      		  nationality or social groups.
-      			<a 
-	      			href="https://en.wikipedia.org/wiki/Character_race"
-	      			target="_blank" 
-					rel="noopener"
-					className="sm-text"> Wikipedia entry</a>
-				</section>
 				<Link href={"/tags/races"}>
-			        <a className="btn btn-sm btn-outline-info mr-1 ml-1 mt-4">
+			        <a className="btn btn-sm btn-outline-info mr-1 ml-1 mt-2">
 			          Races
 			        </a>
 	      		</Link>
@@ -161,26 +149,11 @@ const Players = () => {
       		</div>
           
 			<div>
-				<h4 className="bg-dark p-2 mt-4 text-white font-weight-bold text-center w-75 mx-auto">
+				<h4 className="bg-dark p-2 mt-3 text-white font-weight-bold text-center w-75 mx-auto">
                   Classes
                 </h4>
-				<section className="pt-2 mx-auto text-center w-75">
-	      		A character class is a fundamental part of the identity and nature 
-	      		of characters in any role-playing game. A character's capabilities,
-	      		 strengths, and weaknesses are largely defined by its class; 
-	      		 choosing a class is one of the first steps a player takes to create
-	      		  a player character.
-	      		A character's class affects a character's available skills and abilities.
-	      		A well-rounded party of characters requires a variety of abilities 
-	      		offered by the classes found within the game.
-	      		<a 
-	      			href="https://en.wikipedia.org/wiki/Character_class_(Dungeons_%26_Dragons)"
-	      			target="_blank" 
-					rel="noopener"
-					className="sm-text"> Wikipedia entry</a>
-      			</section>
 				<Link href={"/tags/classes"}>
-			        <a className="btn btn-sm btn-outline-info mr-1 ml-1 mt-4">
+			        <a className="btn btn-sm btn-outline-info mr-1 ml-1 mt-2">
 			          Classes
 			        </a>
 	      		</Link>
@@ -250,29 +223,16 @@ const Players = () => {
       		</div>
 
       		<div>
-				<h4 className="bg-dark p-2 mt-4 text-white font-weight-bold text-center w-75 mx-auto">
+				<h4 className="bg-dark p-2 mt-3 text-white font-weight-bold text-center w-75 mx-auto">
                   Magic
                 </h4>
-				<section className="pt-2 mx-auto text-center w-75">
-	      		Magic is an attribute assigned to characters within a 
-	      		role-playing game that indicates their power to use special magical 
-	      		abilities or "spells". Magic is a force of nature, and a part of the
-	      		 world. There are two main types of magic: arcane, which comes from 
-	      		 the world and universe around the caster, and divine, which is 
-	      		 inspired from above (or below): the realms of gods.
-	      		<a 
-	      			href="https://en.wikipedia.org/wiki/Magic_of_Dungeons_%26_Dragons"
-	      			target="_blank" 
-					rel="noopener"
-					className="sm-text"> Wikipedia entry</a>
-      			</section>
 				<Link href={"/tags/spells"}>
-			        <a className="btn btn-sm btn-outline-info mr-1 ml-1 mt-4">
+			        <a className="btn btn-sm btn-outline-info mr-1 ml-1 mt-2">
 			          Spells
 			        </a>
 	      		</Link>
       		</div>
-      		<div className="mt-2">
+      		<div className="mt-2 mb-5">
       			<Link href={"/tags/abjuration"}>
 			        <a className="btn btn-sm btn-outline-info mr-1 ml-1 mt-1">
 			          Abjuration

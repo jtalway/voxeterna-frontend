@@ -107,7 +107,7 @@ const SingleBlog = ({blog, query}) => {
 
               <section>
                 <div className="container">
-                  <h1 className="display-2 pb-1 pt-2 text-center font-weight-bold">
+                  <h1 className="display-4 pb-1 pt-2 text-center font-weight-bold">
                     {blog.title}
                   </h1>
                   <p className="mt-2 text-center">
@@ -146,17 +146,17 @@ const SingleBlog = ({blog, query}) => {
               </section>
             </div>
 
-            <div className="container pb-5">
+            <div className="container mb-4">
               <div className="pb-3 text-center"><a href="#comments">Go to Comments</a></div>
-              <h4 className="card-title bg-primary p-2 text-white text-center">
-                <a name="related-blogs">Related blogs</a>
+              <h4 className="card-title bg-dark p-2 text-white text-center">
+                <a name="related-blogs">Related Blogs</a>
               </h4>
               <div className="row">
                 {showRelatedBlogs()}
               </div>
             </div>
-            <div className="container pb-5">
-              <h4 className="card-title bg-primary p-2 text-white text-center"><a name="comments">Comments</a></h4>
+            <div className="container mb-5">
+              <h4 className="card-title bg-dark p-2 text-white text-center"><a name="comments">Comments</a></h4>
                 <div className="row">
                   <div className="container pb-5">
                   {showComments()}

@@ -33,8 +33,8 @@ const Category = ({category, blogs, query}) => {
         <main>
           <div className="container-fluid text-center">
             <header>
-              <div className="col-md-12 pt-3">
-                <h1 className="bg-info p-2 text-white font-weight-bold text-center">
+              <div className="col-md-12 pt-1">
+                <h1 className="bg-dark p-2 text-white font-weight-bold text-center">
                   {category.name}
                 </h1>
                 {blogs.map((b, i) => (

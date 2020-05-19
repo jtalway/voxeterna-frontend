@@ -154,7 +154,7 @@ const Blogs = ({blogs, categories, tags, totalBlogs, blogsLimit, blogSkip, route
           <div className="container-fluid">
             {showLoadedBlogs()}
           </div>
-          <div className="text-center pt-5 pb-5">
+          <div className="text-center pt-4 pb-5">
             {loadMoreButton()}
           </div>
         </main>
@@ -165,7 +165,7 @@ const Blogs = ({blogs, categories, tags, totalBlogs, blogsLimit, blogSkip, route
 
 // lifecycle method that comes with Nextjs
 // populate (render) page with blogs
-// return the blog - limit 2
+// return the blog - limit 10
 Blogs.getInitialProps = () => {
   let skip = 0;
   let limit = 10;

@@ -279,7 +279,7 @@ const BlogUpdate = ({router}) => {
               {body &&  <img
                       src={`${API}/blog/photo/${router.query.slug}`}
                       alt={title}
-                      style={{width: "100%"}}
+                      style={{width: "100%", maxHeight: "300px"}}
                     />}
               <small className="text-muted">Max size: 2mb</small>
               <br />

@@ -68,8 +68,9 @@ const OpenGameLicense = () => {
 			<p>
 			System Reference Document 5.0. Copyright 2016, Wizards of the Coast, Inc.; Authors Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.
 			</p>
-
-
+			<p>
+			END OF LICENSE
+			</p>
 
 
         </ModalBody>

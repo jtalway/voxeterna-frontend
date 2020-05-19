@@ -49,41 +49,37 @@ const GameMasters = () => {
 				
               </div>
             </header>
-            <section className="pt-3 pb-3 mr-5 ml-5 text-center">
-				You know what you're doing. Enjoy the following resources:
-			</section>
           </div>
-          <div className="col-md-12 text-center mb-3">
-			
+          <div className="col-md-12 text-center">
           	<div>
 				<Link href={"/categories/running-the-game"}>
-			        <a className="btn btn-sm btn-info mr-1 ml-1 mt-3">
+			        <a className="btn btn-sm btn-info mr-1 ml-1 mt-2">
 			          Running the Game
 			        </a>
 	      		</Link>
 	      		<Link href={"/categories/campaigns"}>
-			        <a className="btn btn-sm btn-info mr-1 ml-1 mt-3">
+			        <a className="btn btn-sm btn-info mr-1 ml-1 mt-2">
 			          Campaigns
 			        </a>
 	      		</Link>
 	      		<Link href={"/categories/adventures"}>
-			        <a className="btn btn-sm btn-info mr-1 ml-1 mt-3">
+			        <a className="btn btn-sm btn-info mr-1 ml-1 mt-2">
 			          Adventures
 			        </a>
 	      		</Link>
 	      		<Link href={"/categories/treasure"}>
-			        <a className="btn btn-sm btn-info mr-1 ml-1 mt-3">
+			        <a className="btn btn-sm btn-info mr-1 ml-1 mt-2">
 			          Treasure
 			        </a>
 	      		</Link>
 	      		<Link href={"/categories/monsters"}>
-			        <a className="btn btn-sm btn-info mr-1 ml-1 mt-3">
+			        <a className="btn btn-sm btn-info mr-1 ml-1 mt-2">
 			          Monsters
 			        </a>
 	      		</Link>
       		</div>
 
-      		<div className="mt-3 mb-3">	      		
+      		<div className="mt-2">	      		
 	      		<Link href={"/tags/random-tables"}>
 			        <a className="btn btn-sm btn-outline-info mr-1 ml-1 mt-1">
 			          Random Tables
@@ -97,14 +93,10 @@ const GameMasters = () => {
       		</div>
 
           	<div>
-		        <h4 className="bg-dark p-2 mt-4 text-white font-weight-bold text-center w-75 mx-auto">
-                  Tiers of Play
+		        <h4 className="bg-dark p-2 mt-3 text-white font-weight-bold text-center w-75 mx-auto">
+                  Tier
                 </h4>
-				<section className="pt-2 mx-auto text-center w-75">
-	      		The general power level of the adventuring party, adventure or campaign.
-	      		
-      			</section>
-      		</div>
+    		</div>
       		<div className="mt-2">
       			<Link href={"/tags/low-levels"}>
 			        <a className="btn btn-sm btn-outline-info mr-1 ml-1 mt-1">
@@ -129,7 +121,7 @@ const GameMasters = () => {
       		</div>
 
       		<div>
-		        <h4 className="bg-dark p-2 mt-4 text-white font-weight-bold text-center w-75 mx-auto">
+		        <h4 className="bg-dark p-2 mt-3 text-white font-weight-bold text-center w-75 mx-auto">
                   People
                 </h4>
 				
@@ -163,7 +155,7 @@ const GameMasters = () => {
       		</div>
 
       		<div>
-		        <h4 className="bg-dark p-2 mt-4 text-white font-weight-bold text-center w-75 mx-auto">
+		        <h4 className="bg-dark p-2 mt-3 text-white font-weight-bold text-center w-75 mx-auto">
                   Places
                 </h4>
 				
@@ -237,7 +229,7 @@ const GameMasters = () => {
       		
 
       		<div>
-		        <h4 className="bg-dark p-2 mt-4 text-white font-weight-bold text-center w-75 mx-auto">
+		        <h4 className="bg-dark p-2 mt-3 text-white font-weight-bold text-center w-75 mx-auto">
                   Things
                 </h4>
 				
@@ -261,28 +253,16 @@ const GameMasters = () => {
       		</div>
 
       		<div>
-      			<h4 className="bg-dark p-2 mt-4 text-white font-weight-bold text-center w-75 mx-auto">
+      			<h4 className="bg-dark p-2 mt-3 text-white font-weight-bold text-center w-75 mx-auto">
                   Magic Items
                 </h4>
-				<section className="pt-2 mx-auto text-center w-75">
-	      			A magic item is any object that has magic powers inherent in it. 
-	      			These items may act on their own or be the tools of the character 
-	      			possessing them. Magic items are generally found in treasure 
-	      			hoards, or recovered from fallen opponents; sometimes, a powerful 
-	      			or important magic item is the object of a quest.
-	      		<a 
-	      			href="https://en.wikipedia.org/wiki/Magic_item_(Dungeons_%26_Dragons)"
-	      			target="_blank" 
-					rel="noopener"
-					className="sm-text"> Wikipedia entry</a>
-      			</section>
 				<Link href={"/tags/magic-items"}>
-			        <a className="btn btn-sm btn-outline-info mr-1 ml-1 mt-4">
+			        <a className="btn btn-sm btn-outline-info mr-1 ml-1 mt-2">
 			          Magic Items
 			        </a>
 	      		</Link>
       		</div>
-      		<div className="mt-2">
+      		<div className="mt-2 mb-5">
       			<Link href={"/tags/armor"}>
 			        <a className="btn btn-sm btn-outline-info mr-1 ml-1 mt-1">
 			          Armor
