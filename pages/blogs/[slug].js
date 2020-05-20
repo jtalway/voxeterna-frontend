@@ -172,7 +172,7 @@ const SingleBlog = ({blog, query}) => {
   );
 };
 
-SingleBlog.getInitialProps = async ({query}) => {
+SingleBlog.getInitialProps = ({query}) => {
   return singleBlog(query.slug).then(data => {
     if(data.error) {
       console.log(data.error);
