@@ -46,9 +46,18 @@ const About = () => {
 
           <p>Please join me on my quest...</p>
           <hr />
-          <p className="sm-text text-center">
+          <p className="text-center">
             This application was made using React, Next.js, Node.js, MongoDB. <br/>
-            It is hosted by Digital Ocean.
+            It is hosted by Digital Ocean with SSL and CDN from Cloudflare.<br/>
+            <a 
+              href="https://github.com/jtalway/voxeterna-backend" 
+              target="_blank" 
+              rel="noopener">API/server code</a>
+            <br/>
+            <a 
+              href="https://github.com/jtalway/voxeterna-frontend" 
+              target="_blank" 
+              rel="noopener">Client code</a> 
           </p>
          
         </ModalBody>
