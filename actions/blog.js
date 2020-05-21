@@ -57,7 +57,7 @@ export const singleBlog = slug => {
 };
 
 // LIST RELATED
-export const listRelated = async (blog) => {
+export const listRelated = blog => {
   return fetch(`${API}/blogs/related`, {
     method: "POST",
     headers: {
@@ -66,8 +66,8 @@ export const listRelated = async (blog) => {
     },
     body: JSON.stringify(blog)
   })
-  .then(async (response) => {
-    return await response.json();
+  .then(response => {
+    return response.json();
   })
   .catch(err => console.log(err));
 };
